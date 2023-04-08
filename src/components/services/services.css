@@ -1,0 +1,100 @@
+.back {
+  position: relative;
+}
+.back h2 {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 40px;
+}
+.back-link {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 250px;
+  font-size: 20px;
+}
+
+.services {
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  color: white;
+}
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6rem;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  background: var(--color-bg);
+  padding-bottom: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.service div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.service p {
+  color: var(--color-p);
+  font-size: 22px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.service button {
+  background-color: transparent;
+  border: 2px solid var(--color-yellow);
+  padding: 15px 50px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 15px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.service button:hover {
+  background-color: var(--color-yellow);
+}
+
+.link-service {
+  color: white;
+  transition: var(--transition);
+  font-weight: bold;
+  line-height: 2;
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  text-align: center;
+}
+.link-service:hover {
+  color: var(--color-yellow);
+}
+
+@media screen and (max-width: 1024px) {
+  .services-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .services-container {
+    grid-template-columns: 1fr;
+  }
+  .back h2 {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --color-bg: hsl(218, 26%, 14%);
+  --color-orange: #ff493c;
+  --color-yellow: #ffb820;
+  --color-gray: #8c9096;
+  --color-bg-black: #242d3c;
+  --color-h4: #696e76;
+  --color-p: #b1b2b3;
+
+  --container-width-lg: 88%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+
+  --transition: all 300ms ease;
+}
+
+/* Hide Scroll Bar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* GENERAL STYLES */
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+.general-background-image {
+  background-image: linear-gradient(
+      0deg,
+      hsl(218, 26%, 14%, 0.8),
+      hsl(218, 26%, 14%, 0.8)
+    ),
+    url('./assets/Social-1-20.jpg');
+  height: 65vh;
+  background-size: cover;
+}
+
+.back {
+  position: relative;
+}
+.back h2 {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 40px;
+}
+.back-link {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 250px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .back h2 {
+    font-size: 10px;
+  }
+}
+
+.general-header {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.general-hr {
+  border: 1px solid var(--color-orange);
+  width: 15%;
+  margin: 0 auto 70px;
+}
+.link {
+  color: var(--color-orange);
+  transition: var(--transition);
+  font-weight: 700;
+}
+.link:hover {
+  color: white;
+}
+
+body {
+  /* font-family: 'Tinos', serif; */
+  /* font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+  font-family: 'Raleway', sans-serif;
+  background: var(--color-bg-black);
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,23 @@
+.ser-left {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.service-ul li {
+  list-style-type: number;
+  color: white;
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 30px;
+}
+
+.ser-p {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .back h2 {
+    font-size: 20px;
+    transform: translateX(-43%);
+  }
+}

@@ -1,0 +1,121 @@
+.blogs {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog {
+  border: 1px solid gray;
+  width: 960px;
+  margin: 0 auto 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.blog-image img {
+  width: 900px;
+  height: 600px;
+}
+
+.blog-image {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  margin-top: 35px;
+  margin-left: 30px;
+}
+
+.blog-image button {
+  width: fit-content;
+  padding: 7px 15px;
+  letter-spacing: 2.5px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: -80px;
+  margin-left: 30px;
+  background-color: white;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.blog-image button:hover {
+  color: white;
+  background: var(--color-orange);
+}
+
+.blog-text {
+  margin-left: 35px;
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 709px;
+  margin-top: 80px;
+}
+
+.blog-first-link {
+  font-size: 40px;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.blog-first-link:hover {
+  color: var(--color-yellow);
+}
+
+.blog-container p {
+  color: var(--color-p);
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 2;
+  margin-bottom: 40px;
+}
+
+.blog-button {
+  background-color: transparent;
+  border: 2px solid var(--color-yellow);
+  padding: 15px 50px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 15px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: var(--transition);
+  width: fit-content;
+  margin-bottom: 40px;
+}
+.blog-button:hover {
+  background-color: var(--color-yellow);
+}
+
+@media screen and (max-width: 1024px) {
+  .blog {
+    width: 760px;
+  }
+  .blog-image {
+    margin-right: 50px;
+  }
+  .blog-image img {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .blog {
+    width: 500px;
+  }
+  .blog-image img {
+    width: 440px;
+    height: 350px;
+  }
+  .blog-container p {
+    font-size: 20px;
+    width: 350px;
+  }
+}

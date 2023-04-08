@@ -1,0 +1,148 @@
+.galleries {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.galleries-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.gallery img {
+  height: 300px;
+  width: 300px;
+  cursor: pointer;
+}
+
+.gallery-link {
+  position: absolute;
+  color: black;
+  background-color: white;
+  width: 300px;
+  padding: 33px 0;
+  text-align: center;
+  transition: 0.4s ease;
+  bottom: 0px;
+  right: -400%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery img:hover {
+  filter: opacity(0.5);
+}
+
+.gallery:hover .gallery-link {
+  right: 0;
+}
+
+.model {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(0);
+  overflow: hidden;
+  z-index: 999;
+  transition: opacity 0.4s ease, visibility 0.4s ease,
+    transform 0.5s ease-in-out;
+}
+.model.open {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}
+
+.model img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  display: block;
+  line-height: 0;
+  box-sizing: border-box;
+  padding: 20px 0 20px;
+  margin: 0 auto;
+}
+
+.model.open .MuiSvgIcon-root {
+  position: fixed;
+  top: 0px;
+  right: 10px;
+  width: 3rem;
+  height: 3rem;
+  padding: 5px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+.filterPictures ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.gallery-li-button,
+.all {
+  background-color: #3d93b9;
+  color: white;
+  padding: 8px 46px;
+  text-transform: uppercase;
+  border: navajowhite;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: var(--transition);
+}
+.gallery-li-button:hover,
+.all:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+  .galleries-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .galleries-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .gallery-li-button,
+  .all {
+    font-size: 15px;
+    padding: 10px 10px;
+  }
+  .filterPictures ul {
+    gap: 5px;
+  }
+  .gallery img {
+    height: 250px;
+  }
+  .model {
+    width: 54%;
+    height: 30%;
+    top: 20%;
+  }
+}
