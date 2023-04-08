@@ -22,7 +22,10 @@ function App() {
           path="/services"
           element={<Services setServiceId={setServiceId} />}
         />
-        <Route path="services/:id" element={<Service service={serviceId} />} />
+        <Route
+          path="MarkitSite/services/:id"
+          element={<Service service={serviceId} />}
+        />
         <Route path="/work" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

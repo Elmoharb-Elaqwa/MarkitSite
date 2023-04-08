@@ -98,7 +98,7 @@ const Services = (props) => {
                   className="more"
                   onClick={() => {
                     navigate(
-                      `/services/${service.id}/?par=${service.par}&link=${service.link}`
+                      `/MarkitSite/services/${service.id}/?par=${service.par}&link=${service.link}`
                     );
                     setServiceId(service);
                   }}
