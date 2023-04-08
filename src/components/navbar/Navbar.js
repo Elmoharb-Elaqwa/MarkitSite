@@ -9,7 +9,7 @@ const Navbar = () => {
   console.log(active);
   return (
     <nav>
-      <div className="head" onClick={() => navigate('/')}>
+      <div className="head" onClick={() => navigate('/MarkitSite')}>
         <h2>
           Dast
           <span className="five">a</span>
