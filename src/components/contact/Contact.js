@@ -10,7 +10,7 @@ const Contact = () => {
       <div className="general-background-image">
         <div className="back">
           <h2>Contact Us</h2>
-          <Link className="link back-link" to="/">
+          <Link className="link back-link" to="/MarkitSite">
             Home
           </Link>
         </div>

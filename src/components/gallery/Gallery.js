@@ -73,7 +73,7 @@ const Gallery = () => {
       <div className="general-background-image">
         <div className="back">
           <h2>Our Work</h2>
-          <Link className="link back-link" to="/">
+          <Link className="link back-link" to="/MarkitSite">
             Home
           </Link>
         </div>

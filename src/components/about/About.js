@@ -8,7 +8,7 @@ const About = () => {
       <div className="general-background-image">
         <div className="back">
           <h2>About Us</h2>
-          <Link className="link back-link" to="/">
+          <Link className="link back-link" to="/MarkitSite">
             Home
           </Link>
         </div>

@@ -72,7 +72,7 @@ const Services = (props) => {
       <div className="general-background-image">
         <div className="back">
           <h2>Our Services</h2>
-          <Link className="link back-link" to="/">
+          <Link className="link back-link" to="/MarkitSite">
             Home
           </Link>
         </div>
