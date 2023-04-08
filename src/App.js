@@ -17,17 +17,17 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/MarkitSite" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/MarkitSite/about" element={<About />} />
         <Route
-          path="/services"
+          path="/MarkitSite/services"
           element={<Services setServiceId={setServiceId} />}
         />
         <Route
-          path="MarkitSite/services/:id"
+          path="/MarkitSite/services/:id"
           element={<Service service={serviceId} />}
         />
-        <Route path="/work" element={<Gallery />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/MarkitSite/work" element={<Gallery />} />
+        <Route path="/MarkitSite/contact" element={<Contact />} />
       </Routes>
     </div>
   );
