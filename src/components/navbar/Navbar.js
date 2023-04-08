@@ -35,7 +35,7 @@ const Navbar = () => {
           <Link
             onClick={() => setActive('about')}
             className={`link ${active === 'about' ? 'active' : ''}`}
-            to="/about"
+            to="/MarkitSite/about"
           >
             ABOUT
           </Link>
@@ -45,7 +45,7 @@ const Navbar = () => {
           <Link
             onClick={() => setActive('services')}
             className={`link ${active === 'services' ? 'active' : ''}`}
-            to="/services"
+            to="/MarkitSite/services"
           >
             SERVICES
           </Link>
@@ -114,7 +114,7 @@ const Navbar = () => {
           <Link
             onClick={() => setActive('gallery')}
             className={`link ${active === 'gallery' ? 'active' : ''}`}
-            to="/work"
+            to="/MarkitSite/work"
           >
             WORK
           </Link>
@@ -133,7 +133,7 @@ const Navbar = () => {
           <Link
             onClick={() => setActive('contact')}
             className={`link ${active === 'contact' ? 'active' : ''}`}
-            to="/contact"
+            to="/MarkitSite/contact"
           >
             CONTACT
           </Link>
