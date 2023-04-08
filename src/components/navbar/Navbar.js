@@ -26,7 +26,7 @@ const Navbar = () => {
           <Link
             onClick={() => setActive('home')}
             className={`link ${active === 'home' ? 'active' : ''}`}
-            to="/"
+            to="/MarkitSite"
           >
             HOME
           </Link>
