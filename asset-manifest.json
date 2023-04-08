@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MarkitSite/static/css/main.b61524d6.css",
-    "main.js": "/MarkitSite/static/js/main.3d8421a1.js",
+    "main.js": "/MarkitSite/static/js/main.f672bbaa.js",
     "static/media/four.jpg": "/MarkitSite/static/media/four.b9ff9e7fb3d30f36d000.jpg",
     "static/media/one.jpg": "/MarkitSite/static/media/one.731afb94e8b3d28eb16b.jpg",
     "static/media/two.jpg": "/MarkitSite/static/media/two.72bcc9acaa7a697d21d5.jpg",
@@ -16,10 +16,10 @@
     "static/media/six.jpg": "/MarkitSite/static/media/six.9416575e9dce4b416951.jpg",
     "index.html": "/MarkitSite/index.html",
     "main.b61524d6.css.map": "/MarkitSite/static/css/main.b61524d6.css.map",
-    "main.3d8421a1.js.map": "/MarkitSite/static/js/main.3d8421a1.js.map"
+    "main.f672bbaa.js.map": "/MarkitSite/static/js/main.f672bbaa.js.map"
   },
   "entrypoints": [
     "static/css/main.b61524d6.css",
-    "static/js/main.3d8421a1.js"
+    "static/js/main.f672bbaa.js"
   ]
 }
