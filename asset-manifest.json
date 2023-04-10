@@ -1,8 +1,13 @@
 {
   "files": {
-    "main.css": "/MarkitSite/static/css/main.b61524d6.css",
-    "main.js": "/MarkitSite/static/js/main.80ebeaaf.js",
+    "main.css": "/MarkitSite/static/css/main.aac3c5ce.css",
+    "main.js": "/MarkitSite/static/js/main.6c29eb19.js",
+    "static/media/abdulrahman1.png": "/MarkitSite/static/media/abdulrahman1.7ed459cbff45e98b7491.png",
+    "static/media/abdulrahman.png": "/MarkitSite/static/media/abdulrahman.c862ec54c97a66f97cdd.png",
+    "static/media/abdulrhman4.png": "/MarkitSite/static/media/abdulrhman4.4e471c752238f58df97a.png",
+    "static/media/abdulrahman2.png": "/MarkitSite/static/media/abdulrahman2.6aae569ff571baa8ed4f.png",
     "static/media/four.jpg": "/MarkitSite/static/media/four.b9ff9e7fb3d30f36d000.jpg",
+    "static/media/abdulrahman3.png": "/MarkitSite/static/media/abdulrahman3.5bee8aa513f572e0de24.png",
     "static/media/one.jpg": "/MarkitSite/static/media/one.731afb94e8b3d28eb16b.jpg",
     "static/media/two.jpg": "/MarkitSite/static/media/two.72bcc9acaa7a697d21d5.jpg",
     "static/media/Social-1-20.jpg": "/MarkitSite/static/media/Social-1-20.a557d8423ce9bf58b09c.jpg",
@@ -15,11 +20,11 @@
     "static/media/seven.jpg": "/MarkitSite/static/media/seven.de4c607cd43e194419e5.jpg",
     "static/media/six.jpg": "/MarkitSite/static/media/six.9416575e9dce4b416951.jpg",
     "index.html": "/MarkitSite/index.html",
-    "main.b61524d6.css.map": "/MarkitSite/static/css/main.b61524d6.css.map",
-    "main.80ebeaaf.js.map": "/MarkitSite/static/js/main.80ebeaaf.js.map"
+    "main.aac3c5ce.css.map": "/MarkitSite/static/css/main.aac3c5ce.css.map",
+    "main.6c29eb19.js.map": "/MarkitSite/static/js/main.6c29eb19.js.map"
   },
   "entrypoints": [
-    "static/css/main.b61524d6.css",
-    "static/js/main.80ebeaaf.js"
+    "static/css/main.aac3c5ce.css",
+    "static/js/main.6c29eb19.js"
   ]
 }
