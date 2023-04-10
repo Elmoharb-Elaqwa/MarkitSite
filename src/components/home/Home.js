@@ -6,6 +6,8 @@ import TeamWork from './homeWork/TeamWork';
 import HomeStratgy from './home-strategy/HomeStratgy';
 import About from '../about/About';
 import HomeAbout from './home-about/HomeAbout';
+import HomeContact from './home-contact/HomeContact';
+import HomeStr from './home-str/HomeStr';
 const Home = () => {
   return (
     <div>
@@ -14,6 +16,8 @@ const Home = () => {
       <TeamWork />
       <HomeStratgy />
       <HomeAbout />
+      <HomeContact />
+      <HomeStr />
     </div>
   );
 };
