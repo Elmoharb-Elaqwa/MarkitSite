@@ -5,14 +5,15 @@ import image2 from '../../../assets/two.jpg';
 import image3 from '../../../assets/three.jpg';
 import image4 from '../../../assets/four.jpg';
 import CloseIcon from '@mui/icons-material/Close';
+import logo from '../../../assets/logo.jpg';
 
 import { Link } from 'react-router-dom';
 const HomeGallery = () => {
   const data = [
     {
-      image: image1,
-      galleryType: 'programming',
-      link2: 'Web',
+      image: logo,
+      galleryType: 'Logo',
+      link2: 'Logo',
     },
     {
       image: image2,
@@ -30,7 +31,7 @@ const HomeGallery = () => {
       link2: 'Markting',
     },
     {
-      image: image4,
+      image: image1,
       galleryType: 'markting',
       link2: 'Markting',
     },
