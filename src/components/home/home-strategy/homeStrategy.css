@@ -59,11 +59,14 @@
 .point {
   width: 18px;
   height: 18px;
-  background: var(--color-orange);
   border-radius: 50%;
+  background: transparent;
+  border: 1px solid var(--color-orange);
   cursor: pointer;
 }
-
+.point:hover {
+  background: var(--color-orange);
+}
 @media screen and (max-width: 1024px) {
   .description {
     top: 80%;
