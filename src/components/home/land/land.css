@@ -114,6 +114,9 @@
   .home-left {
     margin: 50px auto;
   }
+  .home-left-text {
+    letter-spacing: 0.4px;
+  }
 }
 
 @media screen and (max-width: 1024px) {

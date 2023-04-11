@@ -16,10 +16,7 @@ const Land = () => {
           <p className="home-left-text">MARKTING . DEVELOPMENT . SERVICES</p>
         </div>
         <div className="home-right">
-          <h1>
-            Hi
-            <span>D</span>
-          </h1>
+          <h1>Hi</h1>
           <h3 className="name1">With</h3>
           <h3 className="name2">Dasta Agency </h3>
         </div>
