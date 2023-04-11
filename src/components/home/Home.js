@@ -16,8 +16,8 @@ const Home = () => {
       <TeamWork />
       <HomeStratgy />
       <HomeAbout />
-      <HomeContact />
       <HomeStr />
+      <HomeContact />
     </div>
   );
 };

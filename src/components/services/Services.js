@@ -88,7 +88,7 @@ const Services = (props) => {
                     style={{
                       fontSize: '50px',
                       marginTop: '70px',
-                      color: '#ff493c',
+                      color: '#52adb8',
                     }}
                   />
                   <Link className="link-service">{service.link}</Link>

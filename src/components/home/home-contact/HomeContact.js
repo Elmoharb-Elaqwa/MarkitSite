@@ -22,7 +22,7 @@ const HomeContact = () => {
       <div className="container home-contact-container">
         <form ref={data} onSubmit={sendEmail} action="">
           <label htmlFor="">
-            Say <span>Hello</span> To Me
+            Say <span>Hello</span> To Us
           </label>
           <input type="text" placeholder="FULL NAME" name="fullName" required />
           <div>

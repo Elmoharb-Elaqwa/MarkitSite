@@ -7,11 +7,11 @@ const Land = () => {
         <div className="home-left">
           <div className="top">
             <span className="hi">D</span>
-            <span className="five">S</span>
+            <span className="five">A</span>
           </div>
           <div className="bottom">
-            <span className="de">T</span>
-            <span className="ee">A</span>
+            <span className="de">S</span>
+            <span className="ee">TA</span>
           </div>
           <p className="home-left-text">MARKTING . DEVELOPMENT . SERVICES</p>
         </div>

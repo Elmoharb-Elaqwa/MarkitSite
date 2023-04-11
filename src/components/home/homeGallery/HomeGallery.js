@@ -54,6 +54,10 @@ const HomeGallery = () => {
   return (
     <div>
       <div className="home-galleries" id="gallery">
+        <h2 className="general-header" style={{ marginTop: '50px' }}>
+          Our Work
+        </h2>
+        <hr className="general-hr" />
         <div className=" galleries-container">
           <div className={model ? 'model open' : 'model'}>
             <img src={temimgSrc} alt="" />

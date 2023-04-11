@@ -5,9 +5,10 @@ import { SlSocialDropbox } from 'react-icons/sl';
 import { SiCoronaengine } from 'react-icons/si';
 import { CgWebsite } from 'react-icons/cg';
 import { TbBrandPython } from 'react-icons/tb';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './homeStr.css';
 const HomeStr = () => {
+  const navigate = useNavigate();
   const strategyData = [
     {
       icon: BsSearch,
@@ -43,13 +44,18 @@ const HomeStr = () => {
                     style={{
                       fontSize: '50px',
                       marginTop: '70px',
-                      color: '#ff493c',
+                      color: '#52adb8',
                     }}
                   />
                   <Link className="link-service">{strategy.link}</Link>
                 </div>
                 <p>{strategy.par}</p>
-                <button className="more">MORE</button>
+                <button
+                  onClick={() => navigate('/MarkitSite/services')}
+                  className="more"
+                >
+                  MORE
+                </button>
               </div>
             );
           })}

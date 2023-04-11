@@ -10,6 +10,8 @@ const TeamWork = () => {
   const [image, setImage] = useState('abdulrahman1');
   return (
     <div className="team-work ">
+      <h2 className="general-header">Our Team</h2>
+      <hr className="general-hr" />
       <div className="container team-work-container">
         <div className="team-work-persons">
           <Link
