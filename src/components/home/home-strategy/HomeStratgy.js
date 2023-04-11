@@ -22,7 +22,7 @@ const HomeStratgy = () => {
     <div className="str">
       <div className="strategy-background">
         <h2 className="strategy-header">
-          OUR <span>COMPANY</span>
+          Our <span>Strategy</span>
         </h2>
         <div className="description">
           <p>{counter}</p>

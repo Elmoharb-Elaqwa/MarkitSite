@@ -12,9 +12,8 @@ const HomeAbout = () => {
           <div className="about-rigth">
             <p className="about-first-p">
               <span>
-                Hi<span>D</span>, I’m Dasta,
+                Abou<span>t</span>, Us
               </span>
-              a Digital Enterpreneur based in Cairo...
             </p>
             <p className="about-second-p">
               <span>

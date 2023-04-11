@@ -30,7 +30,7 @@ const HomeStr = () => {
   ];
   return (
     <div className="str">
-      <h2 className="general-header">Our Strategy</h2>
+      <h2 className="general-header">Our Services</h2>
       <hr className="general-hr" />
 
       <div className="services" id="services">
@@ -49,6 +49,7 @@ const HomeStr = () => {
                   <Link className="link-service">{strategy.link}</Link>
                 </div>
                 <p>{strategy.par}</p>
+                <button className="more">MORE</button>
               </div>
             );
           })}

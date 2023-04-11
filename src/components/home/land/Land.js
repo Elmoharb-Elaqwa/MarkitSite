@@ -13,15 +13,15 @@ const Land = () => {
             <span className="de">T</span>
             <span className="ee">A</span>
           </div>
-          <p className="home-left-text">MARKTING . SEO . BRANDING</p>
+          <p className="home-left-text">MARKTING . DEVELOPMENT . SERVICES</p>
         </div>
         <div className="home-right">
           <h1>
             Hi
             <span>D</span>
           </h1>
-          <h3 className="name1">My Name </h3>
-          <h3 className="name2">Is Dasta </h3>
+          <h3 className="name1">With</h3>
+          <h3 className="name2">Dasta Agency </h3>
         </div>
       </div>
     </div>

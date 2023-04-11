@@ -13,7 +13,7 @@ const Navbar = () => {
         <h2>
           Dast
           <span className="five">a</span>
-          Mostafa
+          Agency
         </h2>
         <h4>ENTERPRISE</h4>
       </div>
