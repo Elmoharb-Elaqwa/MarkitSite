@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MarkitSite/static/css/main.1fc1c10f.css",
-    "main.js": "/MarkitSite/static/js/main.0d60fa29.js",
+    "main.css": "/MarkitSite/static/css/main.40c8d923.css",
+    "main.js": "/MarkitSite/static/js/main.50f3e367.js",
     "static/media/abdulrahman1.png": "/MarkitSite/static/media/abdulrahman1.7ed459cbff45e98b7491.png",
     "static/media/abdulrahman.png": "/MarkitSite/static/media/abdulrahman.c862ec54c97a66f97cdd.png",
     "static/media/abdulrhman4.png": "/MarkitSite/static/media/abdulrhman4.4e471c752238f58df97a.png",
@@ -22,11 +22,11 @@
     "static/media/logo.jpg": "/MarkitSite/static/media/logo.da252dff1ddd1445902c.jpg",
     "static/media/six.jpg": "/MarkitSite/static/media/six.9416575e9dce4b416951.jpg",
     "index.html": "/MarkitSite/index.html",
-    "main.1fc1c10f.css.map": "/MarkitSite/static/css/main.1fc1c10f.css.map",
-    "main.0d60fa29.js.map": "/MarkitSite/static/js/main.0d60fa29.js.map"
+    "main.40c8d923.css.map": "/MarkitSite/static/css/main.40c8d923.css.map",
+    "main.50f3e367.js.map": "/MarkitSite/static/js/main.50f3e367.js.map"
   },
   "entrypoints": [
-    "static/css/main.1fc1c10f.css",
-    "static/js/main.0d60fa29.js"
+    "static/css/main.40c8d923.css",
+    "static/js/main.50f3e367.js"
   ]
 }
