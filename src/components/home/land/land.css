@@ -76,7 +76,7 @@
 .home-right h1 {
   font-size: 80px;
   /* margin-left: 180px; */
-  margin-left: 228px;
+  margin: 0 auto;
 }
 .home-right h1 span {
   color: var(--color-orange);
@@ -128,7 +128,7 @@
 }
 
 /*
-  
+
    .home {
       overflow: hidden;
     }
@@ -164,7 +164,7 @@
     .home-left-text {
       margin-left: -27px;
     }
-  
+
     left   .home-left {
       margin-left: -25px;
     }
@@ -180,24 +180,24 @@
       font-size: 50px;
       padding: 30px 45px;
     }
-  
+
     .home-left .bottom {
       margin-top: 58px;
     }
     .home-left .bottom .de {
       font-size: 50px;
-  
+
       padding: 30px 42.5px;
-  
+
       font-weight: bold;
     }
-  
+
     .home-left .bottom .ee {
       font-size: 50px;
-  
+
       padding: 30px 43.8px;
       font-weight: bold;
     }
-  
-  
+
+
   */

@@ -15,11 +15,11 @@
 
 .strategy-header {
   position: absolute;
-  top: 20%;
+  top: 10%;
   left: 50%;
   transform: translateX(-45%);
-  font-size: 40px;
   color: white;
+  font-size: 40px;
 }
 .strategy-header span {
   color: var(--color-orange);
@@ -75,7 +75,7 @@
 
 @media screen and (max-width: 600px) {
   .strategy-header {
-    font-size: 25px;
+    font-size: 30px;
   }
   .description {
     padding: 20px;
