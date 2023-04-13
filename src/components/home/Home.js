@@ -8,6 +8,7 @@ import About from '../about/About';
 import HomeAbout from './home-about/HomeAbout';
 import HomeContact from './home-contact/HomeContact';
 import HomeStr from './home-str/HomeStr';
+import HomeVideo from './home-video/HomeVideo';
 const Home = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const Home = () => {
       <HomeAbout />
       <HomeStr />
       <HomeContact />
+      <HomeVideo />
     </div>
   );
 };

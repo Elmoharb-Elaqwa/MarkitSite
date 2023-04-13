@@ -1,7 +1,9 @@
 import React from 'react';
 import aboutImage from '../../../assets/about_home.jpg';
 import './homeAbout.css';
+import { useNavigate } from 'react-router-dom';
 const HomeAbout = () => {
+  const navigate = useNavigate('');
   return (
     <div>
       <div className="about home-about" id="about">
@@ -30,7 +32,12 @@ const HomeAbout = () => {
               marketing Electronic - real estate marketing - entertainment and
               tourism marketing ...... and many other services.
             </p>
-            <button className="about-button">ABOUT</button>
+            <button
+              className="about-button"
+              onClick={() => navigate('/MarkitSite/about')}
+            >
+              ABOUT
+            </button>
           </div>
         </div>
       </div>
