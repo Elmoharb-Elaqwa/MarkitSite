@@ -15,7 +15,7 @@ const Navbar = () => {
           <span className="five">a</span>
           Agency
         </h2>
-        <h4>ENTERPRISE</h4>
+        <h4>Marketing & Development Services</h4>
       </div>
       <BsList
         className={`icon ${open && 'open-icon'}`}

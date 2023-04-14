@@ -12,7 +12,7 @@ const Service = (props) => {
       <div className="general-background-image">
         <div className="back">
           <h2>{link}</h2>
-          <Link className="link back-link" to="/services">
+          <Link className="link back-link" to="/MarkitSite/services">
             Our Services
           </Link>
         </div>

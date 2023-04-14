@@ -1,23 +1,21 @@
 import React from 'react';
-import { BsSearch } from 'react-icons/bs';
-import { HiOutlineCube } from 'react-icons/hi';
+import { RiAdminFill } from 'react-icons/ri';
+import { SiAdobephotoshop } from 'react-icons/si';
 import { SlSocialDropbox } from 'react-icons/sl';
-import { SiCoronaengine } from 'react-icons/si';
-import { CgWebsite } from 'react-icons/cg';
-import { TbBrandPython } from 'react-icons/tb';
+
 import { Link, useNavigate } from 'react-router-dom';
 import './homeStr.css';
 const HomeStr = () => {
   const navigate = useNavigate();
   const strategyData = [
     {
-      icon: BsSearch,
+      icon: RiAdminFill,
       link: 'ADMINISTRATIVE DEVELOPMENT',
       par: 'Setting vision, mission and goals,Building and developing the organizational structure',
       id: 1,
     },
     {
-      icon: HiOutlineCube,
+      icon: SiAdobephotoshop,
       link: 'PROFESSIONAL PHOTOGRAPHY',
       par: 'Location videos,Filming interviews and recordings,Coverage of events and events',
       id: 2,
@@ -47,7 +45,9 @@ const HomeStr = () => {
                       color: '#52adb8',
                     }}
                   />
-                  <Link className="link-service">{strategy.link}</Link>
+                  <Link className="link-service" to="/MarkitSite/services">
+                    {strategy.link}
+                  </Link>
                 </div>
                 <p>{strategy.par}</p>
                 <button

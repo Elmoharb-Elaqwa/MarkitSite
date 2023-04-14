@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import './services.css';
-import { BsSearch } from 'react-icons/bs';
-import { HiOutlineCube } from 'react-icons/hi';
+import { RiAdminFill } from 'react-icons/ri';
+import { SiAdobephotoshop } from 'react-icons/si';
 import { SlSocialDropbox } from 'react-icons/sl';
 import { SiCoronaengine } from 'react-icons/si';
-import { CgWebsite } from 'react-icons/cg';
+import { GiOrganigram } from 'react-icons/gi';
+import { IoShareSocialSharp } from 'react-icons/io5';
+import { FaAdversal } from 'react-icons/fa';
 import { TbBrandPython } from 'react-icons/tb';
 
 import { Link, useNavigate } from 'react-router-dom';
@@ -12,13 +14,13 @@ const Services = (props) => {
   const { setServiceId } = props;
   const servicesData = [
     {
-      icon: BsSearch,
+      icon: RiAdminFill,
       link: 'ADMINISTRATIVE DEVELOPMENT',
       par: 'Setting vision, mission and goals,Building and developing the organizational structure',
       id: 1,
     },
     {
-      icon: HiOutlineCube,
+      icon: SiAdobephotoshop,
       link: 'PROFESSIONAL PHOTOGRAPHY',
       par: 'Location videos,Filming interviews and recordings,Coverage of events and events',
       id: 2,
@@ -37,13 +39,13 @@ const Services = (props) => {
     },
 
     {
-      icon: TbBrandPython,
+      icon: IoShareSocialSharp,
       link: 'E-MARKTING',
       par: 'Managing accounts on social networking sites,Digital identity management',
       id: 5,
     },
     {
-      icon: TbBrandPython,
+      icon: FaAdversal,
       link: 'ADVERTISING SERVICES',
       par: '2D and 3D animation movies,Product advertising designs for billboards',
       id: 6,
@@ -55,7 +57,7 @@ const Services = (props) => {
       id: 7,
     },
     {
-      icon: TbBrandPython,
+      icon: GiOrganigram,
       link: 'ORGANIZING CONFERENCES',
       par: 'Media graphic for the event,The content of the program for the event',
       id: 8,

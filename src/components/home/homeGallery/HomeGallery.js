@@ -7,7 +7,7 @@ import image4 from '../../../assets/four.jpg';
 import CloseIcon from '@mui/icons-material/Close';
 import logo from '../../../assets/logo.jpg';
 
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 const HomeGallery = () => {
   const data = [
     {
@@ -51,10 +51,15 @@ const HomeGallery = () => {
     const filterPictures = data.filter((data) => data.galleryType === itemData);
     setGalleryData(filterPictures);
   };
+  const navigate = useNavigate();
   return (
     <div>
       <div className="home-galleries" id="gallery">
-        <h2 className="general-header" style={{ marginTop: '50px' }}>
+        <h2
+          className="general-header"
+          style={{ marginTop: '50px', cursor: 'pointer' }}
+          onClick={() => navigate('/MarkitSite/work')}
+        >
           Our Work
         </h2>
         <hr className="general-hr" />

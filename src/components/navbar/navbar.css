@@ -18,9 +18,9 @@ nav .head .five {
   display: inline-block;
 }
 nav .head h4 {
-  font-size: 25px;
+  font-size: 12px;
   color: var(--color-h4);
-  letter-spacing: 6px;
+  letter-spacing: 1px;
 }
 
 /* UL */
@@ -215,8 +215,8 @@ nav .active {
     margin-left: -15px;
   }
   nav .head h4 {
-    letter-spacing: 3.5px;
-    font-size: large;
+    letter-spacing: 1px;
+    font-size: small;
     margin-left: -15px;
   }
   nav .main-ul {
