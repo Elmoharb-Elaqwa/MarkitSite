@@ -60,8 +60,8 @@ const Navbar = () => {
           </Link>
           <ul className="pages-ul" id="paUl">
             <li>
-              <Link className="link" to="/price">
-                PRICING
+              <Link className="link" to="/MarkitSite/brand">
+                BRANDING
               </Link>
             </li>
             <hr />

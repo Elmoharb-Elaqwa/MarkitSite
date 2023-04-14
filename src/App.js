@@ -10,6 +10,7 @@ import { Routes, Route } from 'react-router-dom';
 import ServicesPage from './components/servicesPage/ServicesPage';
 import Service from './components/services/service/Service';
 import { useState } from 'react';
+import Branding from './components/products/branding1/Branding';
 function App() {
   const [serviceId, setServiceId] = useState({});
   return (
@@ -28,6 +29,7 @@ function App() {
         />
         <Route path="/MarkitSite/work" element={<Gallery />} />
         <Route path="/MarkitSite/contact" element={<Contact />} />
+        <Route path="/MarkitSite/brand" element={<Branding />} />
       </Routes>
     </div>
   );
