@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MarkitSite/static/css/main.c1f3d70b.css",
-    "main.js": "/MarkitSite/static/js/main.ccca04f5.js",
+    "main.js": "/MarkitSite/static/js/main.9c52eb4e.js",
     "static/media/Branding.mp4": "/MarkitSite/static/media/Branding.8fabf795a122be83b163.mp4",
     "static/media/abdulrahman1.png": "/MarkitSite/static/media/abdulrahman1.7ed459cbff45e98b7491.png",
     "static/media/abdulrahman.png": "/MarkitSite/static/media/abdulrahman.c862ec54c97a66f97cdd.png",
@@ -24,10 +24,10 @@
     "static/media/six.jpg": "/MarkitSite/static/media/six.9416575e9dce4b416951.jpg",
     "index.html": "/MarkitSite/index.html",
     "main.c1f3d70b.css.map": "/MarkitSite/static/css/main.c1f3d70b.css.map",
-    "main.ccca04f5.js.map": "/MarkitSite/static/js/main.ccca04f5.js.map"
+    "main.9c52eb4e.js.map": "/MarkitSite/static/js/main.9c52eb4e.js.map"
   },
   "entrypoints": [
     "static/css/main.c1f3d70b.css",
-    "static/js/main.ccca04f5.js"
+    "static/js/main.9c52eb4e.js"
   ]
 }
