@@ -50,6 +50,7 @@ td {
   .social-plans th,
   td {
     padding: 5px;
+    font-size: 10px;
   }
   .plans {
     margin-bottom: 400px;
