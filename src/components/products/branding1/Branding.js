@@ -23,7 +23,7 @@ const Branding = () => {
           <tr>
             <th>Band</th>
             <th>Details</th>
-            <th>Quantity</th>
+            <th>Number</th>
             <th>Price</th>
           </tr>
           <tr>
@@ -110,7 +110,7 @@ const Branding = () => {
           <tr>
             <th>Band</th>
             <th>Details</th>
-            <th>Quantity</th>
+            <th>Number</th>
             <th>Price</th>
           </tr>
           <tr>
@@ -245,7 +245,7 @@ const Branding = () => {
           <tr>
             <th>Band</th>
             <th>Details</th>
-            <th>Quantity</th>
+            <th>Number</th>
             <th>Price</th>
           </tr>
           <tr>

@@ -11,6 +11,12 @@ import ServicesPage from './components/servicesPage/ServicesPage';
 import Service from './components/services/service/Service';
 import { useState } from 'react';
 import Branding from './components/products/branding1/Branding';
+import SocialMedia from './components/products/socialMedia/SocialMedia';
+import WebApp from './components/products/web&app/WebApp';
+import MediaGraphic from './components/products/mediaGraphic/MediaGraphic';
+import PhotoVideos from './components/products/photoAndVideos/PhotoVideos';
+import OffsitPrints from './components/products/offsetPrints/OffsitPrints';
+import OutDoorIndoor from './components/products/outdoorAndIndoor/OutDoorIndoor';
 function App() {
   const [serviceId, setServiceId] = useState({});
   return (
@@ -30,6 +36,12 @@ function App() {
         <Route path="/MarkitSite/work" element={<Gallery />} />
         <Route path="/MarkitSite/contact" element={<Contact />} />
         <Route path="/MarkitSite/brand" element={<Branding />} />
+        <Route path="/MarkitSite/social" element={<SocialMedia />} />
+        <Route path="/MarkitSite/webapp" element={<WebApp />} />
+        <Route path="/MarkitSite/media" element={<MediaGraphic />} />
+        <Route path="/MarkitSite/photovideos" element={<PhotoVideos />} />
+        <Route path="/MarkitSite/offset" element={<OffsitPrints />} />
+        <Route path="/MarkitSite/outindoor" element={<OutDoorIndoor />} />
       </Routes>
     </div>
   );

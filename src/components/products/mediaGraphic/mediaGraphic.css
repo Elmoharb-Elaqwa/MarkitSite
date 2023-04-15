@@ -1,0 +1,57 @@
+plans {
+  margin-bottom: 100px;
+}
+
+.media-plans {
+  display: flex;
+  flex-direction: column;
+}
+
+table {
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  width: 100%;
+  margin: 40px auto;
+  padding-bottom: 2px;
+}
+.media-plans th,
+td {
+  border: 1px solid white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.buy {
+  padding: 15px 50px;
+  background-color: transparent;
+  border: 2px solid var(--color-orange);
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2;
+  cursor: pointer;
+  transition: var(--transition);
+  margin: 30px auto;
+  position: absolute;
+  left: 50%;
+  transform: translate(-45%);
+}
+.buy:hover {
+  background: var(--color-orange);
+}
+
+@media screen and (max-width: 600px) {
+  .found-header {
+    font-size: 28px;
+  }
+
+  .media-plans th,
+  td {
+    padding: 5px;
+  }
+  .plans {
+    margin-bottom: 400px;
+  }
+}

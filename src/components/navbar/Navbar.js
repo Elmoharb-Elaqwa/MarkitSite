@@ -67,36 +67,43 @@ const Navbar = () => {
             <hr />
 
             <li>
-              <Link className="link" to="/clients">
-                CLIENTS
+              <Link className="link" to="/MarkitSite/social">
+                SOCIAL MEDIA
               </Link>
             </li>
             <hr />
 
             <li>
-              <Link className="link" to="/Faq">
-                FAQ
+              <Link className="link" to="/MarkitSite/webapp">
+                WEB&APP
               </Link>
             </li>
             <hr />
 
             <li>
-              <Link className="link" to="/testimonials">
-                TESTIMONIALS
+              <Link className="link" to="/MarkitSite/media">
+                MEDIA GRAPHIC
               </Link>
             </li>
             <hr />
 
             <li>
-              <Link className="link" to="/elements">
-                ELEMENTS
+              <Link className="link" to="/MarkitSite/photovideos">
+                PHOTO&VIDEOS
               </Link>
             </li>
             <hr />
 
             <li>
-              <Link className="link" to="/typography">
-                TYPOGRAPHY
+              <Link className="link" to="/MarkitSite/offset">
+                OFFSET PRINTS
+              </Link>
+            </li>
+            <hr />
+
+            <li>
+              <Link className="link" to="/MarkitSite/outindoor">
+                OUTDOOR&INDOOR
               </Link>
             </li>
           </ul>
