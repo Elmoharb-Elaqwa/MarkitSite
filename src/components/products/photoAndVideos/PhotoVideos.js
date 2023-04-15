@@ -23,65 +23,91 @@ const PhotoVideos = () => {
           <tr>
             <th>Band</th>
             <th>Details</th>
-            <th>Number</th>
+            <th>Quantity</th>
             <th>Price</th>
+            <th>Buy</th>
           </tr>
           <tr>
             <td>products</td>
             <td>Product photography</td>
             <td>10</td>
             <td>200</td>
+            <td>
+              <button className="btn">Buy</button>
+            </td>
           </tr>
           <tr>
             <td>products</td>
             <td>Product photography</td>
             <td>from 11-20</td>
             <td>170</td>
+            <td>
+              <button className="btn">Buy</button>
+            </td>
           </tr>
           <tr>
             <td>products</td>
             <td>Product photography</td>
             <td>from 21-30</td>
             <td>150</td>
+            <td>
+              <button className="btn">Buy</button>
+            </td>
           </tr>
           <tr>
             <td>products</td>
             <td>Product photography</td>
             <td>from 31-40</td>
             <td>120</td>
+            <td>
+              <button className="btn">Buy</button>
+            </td>
           </tr>
           <tr>
             <td>products</td>
             <td>Product photography</td>
             <td>from 41-50</td>
             <td>100</td>
+            <td>
+              <button className="btn">Buy</button>
+            </td>
           </tr>
           <tr>
             <td>products</td>
             <td>Product photography</td>
             <td>from 51-100</td>
             <td>50</td>
+            <td>
+              <button className="btn">Buy</button>
+            </td>
           </tr>
           <tr>
             <td>products</td>
             <td>Product photography</td>
             <td>from 100-..</td>
             <td>35</td>
+            <td>
+              <button className="btn">Buy</button>
+            </td>
           </tr>
           <tr>
             <td>External photography</td>
             <td>Photography</td>
             <td>8h</td>
             <td>1500</td>
+            <td>
+              <button className="btn">Buy</button>
+            </td>
           </tr>
           <tr>
             <td>External photography</td>
             <td>Video recording</td>
             <td>8h</td>
             <td>2000</td>
+            <td>
+              <button className="btn">Buy</button>
+            </td>
           </tr>
-
-          <button className="buy">Buy</button>
         </table>
       </div>
     </div>

@@ -23,35 +23,46 @@ const WebApp = () => {
           <tr>
             <th>Band</th>
             <th>Details</th>
-            <th>Number</th>
+            <th>Quantity</th>
             <th>Price</th>
+            <th>Buy</th>
           </tr>
           <tr>
             <td>Web site</td>
             <td>word press + host + free domain renewal</td>
             <td>1</td>
             <td>5000</td>
+            <td>
+              <button className="btn">Buy</button>
+            </td>
           </tr>
           <tr>
             <td>Web store</td>
             <td>Dynamic + host + free domain</td>
             <td>1</td>
             <td>15000</td>
+            <td>
+              <button className="btn">Buy</button>
+            </td>
           </tr>
           <tr>
             <td>Mobile App</td>
             <td>Flutter Android + IOS</td>
             <td>1</td>
             <td>15000</td>
+            <td>
+              <button className="btn">Buy</button>
+            </td>
           </tr>
           <tr>
             <td>APP Store</td>
             <td>Flutter Android + IOS</td>
             <td>1</td>
             <td>25000</td>
+            <td>
+              <button className="btn">Buy</button>
+            </td>
           </tr>
-
-          <button className="buy">Buy</button>
         </table>
       </div>
     </div>

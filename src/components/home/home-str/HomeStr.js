@@ -1,7 +1,7 @@
 import React from 'react';
 import { RiAdminFill } from 'react-icons/ri';
-import { SiAdobephotoshop } from 'react-icons/si';
-import { SlSocialDropbox } from 'react-icons/sl';
+import { HiBuildingStorefront } from 'react-icons/hi2';
+import { AiFillCamera } from 'react-icons/ai';
 
 import { Link, useNavigate } from 'react-router-dom';
 import './homeStr.css';
@@ -15,13 +15,13 @@ const HomeStr = () => {
       id: 1,
     },
     {
-      icon: SiAdobephotoshop,
+      icon: AiFillCamera,
       link: 'PROFESSIONAL PHOTOGRAPHY',
       par: 'Location videos,Filming interviews and recordings,Coverage of events and events',
       id: 2,
     },
     {
-      icon: SlSocialDropbox,
+      icon: HiBuildingStorefront,
       link: 'FINISHES AND DECORATION',
       par: 'Special and integrated equipment for service places,Cladding facades and different designs',
       id: 3,

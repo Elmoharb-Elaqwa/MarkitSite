@@ -3,6 +3,7 @@ import './contact.css';
 import { BsFillTelephoneFill } from 'react-icons/bs';
 import { CgMail } from 'react-icons/cg';
 import { TbMessageCircle } from 'react-icons/tb';
+import { IoLocation } from 'react-icons/io5';
 import { Link } from 'react-router-dom';
 const Contact = () => {
   return (
@@ -25,36 +26,47 @@ const Contact = () => {
               style={{ fontSize: '40px', color: 'var(--color-yellow)' }}
             />
             <a
-              href="https://api.whatsapp.com/send?phone=201115654244"
+              href="https://api.whatsapp.com/send?phone=201012237297"
               target="blank"
               className="link contact-link yellow"
             >
               Phone
             </a>
-            <p>01115654244</p>
+            <p>01012237297</p>
           </div>
           <div className="contact">
             <CgMail
               style={{ fontSize: '40px', color: 'var(--color-orange)' }}
             />
             <a
-              href="mailto:bm7097002@gmail.com"
+              href="mailto:dastateam@gmail.com"
               className="link contact-link orange"
             >
               Email
             </a>
-            <p>hi5@example.com</p>
+            <p>dastateam@gmail.com</p>
           </div>
           <div className="contact">
             <TbMessageCircle style={{ fontSize: '40px', color: 'green' }} />
             <a
-              href="https://m.me/a.abdo99"
+              href="https://www.facebook.com/DastaProduction"
               target="blank"
               className="link contact-link green"
             >
               Messanger
             </a>
-            <p>248 Hedge St</p>
+            <p>DASTA</p>
+          </div>
+          <div className="contact">
+            <IoLocation style={{ fontSize: '40px', color: 'green' }} />
+            <a
+              href="https://maps.app.goo.gl/2WpvNzXn7tThn3Gt6"
+              target="blank"
+              className="link contact-link green"
+            >
+              Location
+            </a>
+            <p>Egypt</p>
           </div>
         </div>
       </div>

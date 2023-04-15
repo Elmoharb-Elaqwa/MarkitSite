@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './navbar.css';
 import { BsList } from 'react-icons/bs';
+import { AiOutlineClose } from 'react-icons/ai';
 const Navbar = () => {
   const [open, setIsOpen] = useState(false);
   const [active, setActive] = useState('home');
   const navigate = useNavigate();
-  console.log(active);
   return (
     <nav>
       <div className="head" onClick={() => navigate('/MarkitSite')}>
@@ -17,10 +17,17 @@ const Navbar = () => {
         </h2>
         <h4>Marketing & Development Services</h4>
       </div>
-      <BsList
-        className={`icon ${open && 'open-icon'}`}
-        onClick={() => setIsOpen(!open)}
-      />
+      {!open ? (
+        <BsList
+          className={`icon ${!open && 'open-icon'}`}
+          onClick={() => setIsOpen(true)}
+        />
+      ) : (
+        <AiOutlineClose
+          onClick={() => setIsOpen(false)}
+          className={`icon ${open && 'open-icon'}`}
+        />
+      )}
       <ul className={`main-ul ${open && 'open'}`}>
         <li>
           <Link
@@ -54,7 +61,7 @@ const Navbar = () => {
           <Link
             onClick={() => setActive('pages')}
             className={`link ${active === 'pages' ? 'active' : ''}`}
-            to="#"
+            to="#prod"
           >
             PRODUCTS
           </Link>

@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import './services.css';
 import { RiAdminFill } from 'react-icons/ri';
-import { SiAdobephotoshop } from 'react-icons/si';
-import { SlSocialDropbox } from 'react-icons/sl';
+import { HiBuildingStorefront } from 'react-icons/hi2';
 import { SiCoronaengine } from 'react-icons/si';
 import { GiOrganigram } from 'react-icons/gi';
 import { IoShareSocialSharp } from 'react-icons/io5';
 import { FaAdversal } from 'react-icons/fa';
 import { TbBrandPython } from 'react-icons/tb';
+import { AiFillCamera } from 'react-icons/ai';
 
 import { Link, useNavigate } from 'react-router-dom';
 const Services = (props) => {
@@ -20,13 +20,13 @@ const Services = (props) => {
       id: 1,
     },
     {
-      icon: SiAdobephotoshop,
+      icon: AiFillCamera,
       link: 'PROFESSIONAL PHOTOGRAPHY',
       par: 'Location videos,Filming interviews and recordings,Coverage of events and events',
       id: 2,
     },
     {
-      icon: SlSocialDropbox,
+      icon: HiBuildingStorefront,
       link: 'FINISHES AND DECORATION',
       par: 'Special and integrated equipment for service places,Cladding facades and different designs',
       id: 3,
