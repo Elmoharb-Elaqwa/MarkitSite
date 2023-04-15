@@ -17,6 +17,7 @@ import MediaGraphic from './components/products/mediaGraphic/MediaGraphic';
 import PhotoVideos from './components/products/photoAndVideos/PhotoVideos';
 import OffsitPrints from './components/products/offsetPrints/OffsitPrints';
 import OutDoorIndoor from './components/products/outdoorAndIndoor/OutDoorIndoor';
+import Footer from './components/footer/Footer';
 function App() {
   const [serviceId, setServiceId] = useState({});
   return (
@@ -43,6 +44,7 @@ function App() {
         <Route path="/MarkitSite/offset" element={<OffsitPrints />} />
         <Route path="/MarkitSite/outindoor" element={<OutDoorIndoor />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

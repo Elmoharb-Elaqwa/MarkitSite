@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 150px;
+  background: var(--color-bg);
+}
+
+.footer h1 {
+  color: white;
+  font-size: 70px;
+}
+.footer .social-links {
+  display: flex;
+  gap: 2rem;
+  margin-top: 20px;
+}
+
+.copyright {
+  padding: 30px;
+  text-align: center;
+  color: var(--color-p);
+  font-weight: bold;
+  letter-spacing: 2.5px;
+  font-size: 15px;
+}
