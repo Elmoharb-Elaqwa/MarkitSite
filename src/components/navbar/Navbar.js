@@ -54,6 +54,7 @@ const Navbar = () => {
           <Link
             onClick={() => setActive('pages')}
             className={`link ${active === 'pages' ? 'active' : ''}`}
+            to="#"
           >
             PRODUCTS
           </Link>
