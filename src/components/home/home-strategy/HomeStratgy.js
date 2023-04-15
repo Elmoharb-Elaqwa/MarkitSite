@@ -14,7 +14,7 @@ const HomeStratgy = () => {
     'In today’s competitive landscape it’s more important than ever for companies to stay ahead of their rivals when it comes to branding. With DASTA',
   ];
   const [counter, setCounter] = useState(data[0]);
-  console.log(counter);
+
   const handleSlider = (index) => {
     setCounter(data[index]);
   };
@@ -29,7 +29,11 @@ const HomeStratgy = () => {
           <div className="slider-point">
             {data.map((data, index) => {
               return (
-                <h1 onClick={() => handleSlider(index)} className="point"></h1>
+                <h1
+                  key={index}
+                  onClick={() => handleSlider(index)}
+                  className="point"
+                ></h1>
               );
             })}
           </div>

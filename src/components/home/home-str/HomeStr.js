@@ -34,9 +34,9 @@ const HomeStr = () => {
 
       <div className="services" id="services">
         <div className="container services-container">
-          {strategyData.map((strategy) => {
+          {strategyData.map((strategy, index) => {
             return (
-              <div className="service">
+              <div className="service" key={index}>
                 <div>
                   <strategy.icon
                     style={{

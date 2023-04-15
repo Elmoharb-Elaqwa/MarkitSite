@@ -7,7 +7,6 @@ import Home from './components/home/Home';
 import Navbar from './components/navbar/Navbar';
 import Services from './components/services/Services';
 import { Routes, Route } from 'react-router-dom';
-import ServicesPage from './components/servicesPage/ServicesPage';
 import Service from './components/services/service/Service';
 import { useState } from 'react';
 import Branding from './components/products/branding1/Branding';
