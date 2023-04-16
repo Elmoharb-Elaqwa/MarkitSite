@@ -20,22 +20,17 @@ const Services = (props) => {
       id: 1,
     },
     {
-      icon: AiFillCamera,
-      link: 'PROFESSIONAL PHOTOGRAPHY',
-      par: 'Location videos,Filming interviews and recordings,Coverage of events and events',
-      id: 2,
+      icon: TbBrandPython,
+      link: 'WEBSITE BUILDING',
+      par: 'Various markets and electronic stores,Private and interactive websites',
+      id: 7,
     },
+
     {
-      icon: HiBuildingStorefront,
-      link: 'FINISHES AND DECORATION',
-      par: 'Special and integrated equipment for service places,Cladding facades and different designs',
-      id: 3,
-    },
-    {
-      icon: SiCoronaengine,
-      link: 'DIRECT MARKTING',
-      par: 'Extracting results and making predictions by analyzing the data,Marketing and direct selling plans',
-      id: 4,
+      icon: FaAdversal,
+      link: 'ADVERTISING SERVICES',
+      par: '2D and 3D animation movies,Product advertising designs for billboards',
+      id: 6,
     },
 
     {
@@ -45,16 +40,22 @@ const Services = (props) => {
       id: 5,
     },
     {
-      icon: FaAdversal,
-      link: 'ADVERTISING SERVICES',
-      par: '2D and 3D animation movies,Product advertising designs for billboards',
-      id: 6,
+      icon: SiCoronaengine,
+      link: 'DIRECT MARKTING',
+      par: 'Extracting results and making predictions by analyzing the data,Marketing and direct selling plans',
+      id: 4,
     },
     {
-      icon: TbBrandPython,
-      link: 'WEBSITE BUILDING',
-      par: 'Various markets and electronic stores,Private and interactive websites',
-      id: 7,
+      icon: HiBuildingStorefront,
+      link: 'FINISHES AND DECORATION',
+      par: 'Special and integrated equipment for service places,Cladding facades and different designs',
+      id: 3,
+    },
+    {
+      icon: AiFillCamera,
+      link: 'PROFESSIONAL PHOTOGRAPHY',
+      par: 'Location videos,Filming interviews and recordings,Coverage of events and events',
+      id: 2,
     },
     {
       icon: GiOrganigram,

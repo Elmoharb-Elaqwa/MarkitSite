@@ -11,9 +11,9 @@ const Navbar = () => {
     <nav>
       <div className="head" onClick={() => navigate('/MarkitSite')}>
         <h2>
-          Dast
-          <span className="five">a</span>
-          Agency
+          <span className="five">D</span>asta
+          <span className="five">A</span>
+          gency
         </h2>
         <h4>Marketing & Development Services</h4>
       </div>

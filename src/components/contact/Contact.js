@@ -44,7 +44,7 @@ const Contact = () => {
             >
               Email
             </a>
-            <p>dastateam@gmail.com</p>
+            <p>info@dasta.net</p>
           </div>
           <div className="contact">
             <TbMessageCircle style={{ fontSize: '40px', color: 'green' }} />
