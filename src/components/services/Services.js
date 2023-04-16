@@ -71,7 +71,7 @@ const Services = (props) => {
   }, []);
   return (
     <div>
-      <div className="general-background-image">
+      <div className="general-background-image ser">
         <div className="back">
           <h2>Our Services</h2>
           <Link className="link back-link" to="/MarkitSite">

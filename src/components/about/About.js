@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const About = () => {
   return (
     <div>
-      <div className="general-background-image">
+      <div className="general-background-image abo">
         <div className="back">
           <h2>About Us</h2>
           <Link className="link back-link" to="/MarkitSite">

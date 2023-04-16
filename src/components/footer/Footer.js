@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="footer-all">
       <div className="footer">
-        <h1>dastateam@gmail.com</h1>
+        <h1>info@dasta.net</h1>
         <div className="social-links">
           <a
             href="https://www.facebook.com/DastaProduction/"
@@ -14,15 +14,15 @@ const Footer = () => {
           >
             FACEBOOK
           </a>
-          <a
+          {/* <a
             href="https://www.facebook.com/DastaProduction/"
             target="blank"
             className="link"
           >
             LINKEDIN
-          </a>
+          </a> */}
           <a
-            href="https://www.facebook.com/DastaProduction/"
+            href="https://www.instagram.com/dasta.agency/?igshid=YmMyMTA2M2Y%3D"
             target="blank"
             className="link"
           >
@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="copyright">COPYRIGHT 2023</div>
+      <div className="copyright"> BY DASTA</div>
     </div>
   );
 };

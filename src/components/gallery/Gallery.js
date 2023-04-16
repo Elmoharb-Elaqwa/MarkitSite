@@ -70,7 +70,7 @@ const Gallery = () => {
   };
   return (
     <div>
-      <div className="general-background-image">
+      <div className="general-background-image gal">
         <div className="back">
           <h2>Our Work</h2>
           <Link className="link back-link" to="/MarkitSite">
